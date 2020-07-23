@@ -1,0 +1,19 @@
+{
+  "name": "nodefiles",
+  "version": "12.18.2",
+  "description": "simple web app",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acweb-design/Intro-to-Node.git"
+  },
+  "author": "Antoine Colin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acweb-design/Intro-to-Node/issues"
+  },
+  "homepage": "https://github.com/acweb-design/Intro-to-Node#readme"
+}
