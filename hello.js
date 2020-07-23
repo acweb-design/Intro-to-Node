@@ -1,19 +1,8 @@
-// console.log('hello world');
-
 
 
 var http =  require('http');
 var fs =  require('fs');
 var url = require('url');
-
-// request & response
-// http.createServer(function(req, res) {
-// 	res.writeHead(200, {'Content-type': 'text/html'});
-// 	var q = url.parse(req.url, true).query;
-// 	var dates = q.month + " " + q.year;
-// 	res.write(dates);
-// 	res.end();
-// }).listen(8080);
 
 http.createServer(function(req, res) {
 	var q = url.parse(req.url, true);
